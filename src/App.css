@@ -1,7 +1,11 @@
-.App {
+/* .App {
   text-align: center;
+} */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,181 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.art-title {
+  color: rgb(9, 105, 218);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.artist-data {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.artst-pic {
+  width: 33%;
+  position: relative;
+}
+
+.artst-pic span a {
+  color: #fff;
+  font-size: 16px;
+  display: none;
+}
+
+.artst-pic span.artst-like {
+  position: absolute;
+  left: 11%;
+  bottom: 10px;
+}
+
+.artst-pic span.artst-share {
+  position: absolute;
+  left: 46%;
+  bottom: 10px;
+}
+
+.artst-pic span.artst-plus {
+  position: absolute;
+  right: 9%;
+  bottom: 10px;
+}
+
+.artst-prfle {
+  width: 63%;
+}
+
+.artst-prfle span.artst-sub {
+  font-size: 15px;
+  color: #bbb;
+  float: left;
+  width: 100%;
+  font-weight: normal;
+  padding: 5px 0;
+}
+
+.artst-prfle span.artst-sub span.byname {
+  font-weight: 400;
+  color: #262525;
+}
+
+.artst-prfle span.artst-sub span.daysago {
+  float: right;
+  font-size: 12px;
+}
+
+.counter-tab {
+  /* float: left/; */
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+}
+
+.counter-tab div {
+  /* float: left; */
+  /* width: 33%; */
+  color: #6a6969;
+  font-size: 12px;
+  margin: 0px 5px;
+}
+
+.bot-links {
+  float: left;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.bot-links a {
+  /* display: inline-block;
+  padding: 5px;
+  background: #794747;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #9c9c9c;
+  text-decoration: none; */
+}
+
+span.play-icon {
+  position: absolute;
+  left: 31%;
+  top: 32%;
+  display: none;
+}
+
+.artst-pic:hover img.play-icon,
+.artst-pic:hover span a {
+  display: block;
+}
+
+.chip-container {
+  /* width: 100%; */
+  float: left;
+  clear: both;
+  width: 100%;
+}
+.chip-container ul {
+  margin: 0px auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.chip-container li {
+  list-style: none;
+  padding: 5px;
+  margin: 7px 3px;
+}
+.chip-container li:first-child {
+  margin-left: 0;
+}
+.list-container {
+  border-bottom: 2.5px solid #ccc;
+}
+.chip-container .badge {
+  background-color: rgb(221, 244, 255);
+  color: rgb(9, 105, 218);
+  transition: 0.5s;
+  font-weight: 400;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.chip-container .badge:hover {
+  background-color: rgb(9, 105, 218);
+  color: rgb(221, 244, 255);
+  transition: 0.5s;
+}
+.counter_like.star i {
+  color: #ffbe07;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+.pagination .page-num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.pagination .page-num:hover{
+  background-color: #16e4d9;
+  color: #6a6969;
+}
+
+.pagination .active {
+  background-color: #262525;
 }
