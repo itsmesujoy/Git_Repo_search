@@ -1,8 +1,26 @@
 # Getting Started with Create React App
 
+This project is mainly focused on searching git repository according to our needs
+
+This repository contains a React application that utilizes various packages for enhanced functionality. The project focuses on integrating the following packages:
+
+react-paginate: A React component for pagination, allowing easy implementation of pagination functionality in the application.
+
+moment: A JavaScript library for parsing, manipulating, and formatting dates. It simplifies working with dates and time in the application.
+
+react-loader-spinner: A library that provides a variety of loading spinner animations. It enhances the user experience by displaying loading indicators during asynchronous operations.
+
+axios: A popular JavaScript library for making HTTP requests. It simplifies communication with backend APIs, allowing the application to retrieve and send data easily.
+
+react-icons: A collection of popular icons that can be used in React applications. It offers a wide range of icons to choose from, enhancing the visual appeal of the application.
+
+Bootstrap version 3 is used for styling
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+Install the project dependencies using npm:
+### `npm install`
 
 In the project directory, you can run:
 
